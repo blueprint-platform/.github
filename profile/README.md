@@ -28,7 +28,10 @@
 Not just diagrams. Not documentation shelf-ware.  
 Blueprint Platform makes architecture:
 
-✔ Enforceable • ✔ Evolvable • ✔ Observable • ✔ Testable
+* ✔ Enforceable
+* ✔ Evolvable
+* ✔ Observable
+* ✔ Testable
 
 The result?
 
