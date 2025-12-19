@@ -75,21 +75,20 @@ Blueprint Platform evolves in **intentional layers**:
 Each step builds on the previous — without breaking teams already onboard.
 
 ---
-
 ## ⭐ Join the Journey
 
-Blueprint Platform is community‑driven and opinionated — **by design**.
+Blueprint Platform is community-driven and opinionated — **by design**.
 
 Get involved:
 
-🔗 **Discussions (ideas, roadmap, questions)**
-[https://github.com/blueprint-platform/codegen-blueprint/discussions](https://github.com/blueprint-platform/codegen-blueprint/discussions)
+- 💬 **Discussions** — ideas, roadmap, questions  
+  → [Join the discussion](https://github.com/blueprint-platform/codegen-blueprint/discussions)
 
-📌 **Issues (bugs & concrete tasks)**
-[https://github.com/blueprint-platform/codegen-blueprint/issues](https://github.com/blueprint-platform/codegen-blueprint/issues)
+- 🐞 **Issues** — bugs & concrete tasks  
+  → [View issues](https://github.com/blueprint-platform/codegen-blueprint/issues)
 
-👤 **Follow the creator**
-[https://www.linkedin.com/in/bsayli](https://www.linkedin.com/in/bsayli)
+- 👤 **Follow the creator**  
+  → [LinkedIn — Barış Saylı](https://www.linkedin.com/in/bsayli)
 
 ---
 
