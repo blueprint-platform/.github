@@ -28,10 +28,22 @@ All assets here are **canonical** and should be referenced directly (not copied)
 * **Purpose:** Official wordmark (icon + name)
 * **Usage:**
 
-    * README files
-    * Documentation
-    * Blog posts or presentations
+  * README files
+  * Documentation
+  * Blog posts or presentations
 * **Background:** Light / neutral backgrounds
+
+---
+
+### `blueprint-platform-logo-dark.png`
+
+* **Purpose:** Official wordmark optimized for dark surfaces
+* **Usage:**
+
+  * Dark-themed covers or hero images
+  * Presentation slides with dark backgrounds
+  * Promotional or showcase visuals
+* **Background:** Dark / low-light backgrounds
 
 ---
 
@@ -40,9 +52,9 @@ All assets here are **canonical** and should be referenced directly (not copied)
 * **Purpose:** Icon-only variant (no text)
 * **Usage:**
 
-    * UI components
-    * Diagrams
-    * Favicons or small visual markers
+  * UI components
+  * Diagrams
+  * Favicons or small visual markers
 
 ---
 
