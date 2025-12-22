@@ -1,2 +1,4 @@
 # .github
-Architecture-first enterprise project generation ecosystem. Enforce consistency. Scale with confidence.
+
+Internal organization-level configuration, assets, and documentation
+for the Blueprint Platform GitHub organization.
