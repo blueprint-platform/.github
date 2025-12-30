@@ -2,10 +2,10 @@
 
 > Architecture should not be *explained* — it should be *observable and executable*.
 
-**Blueprint Platform** is an architecture-first ecosystem designed to help engineering teams turn **architectural intent** into **executable guardrails** and **deterministic system foundations**.
+**Blueprint Platform** is an architecture-first ecosystem designed to help engineering teams turn **architectural intent** into **executable guardrails** and **deterministic system foundations** — and keep them intact as systems, teams, and time evolve.
 
-Blueprint does not rely on discipline, tribal knowledge, or best-effort reviews.
-It makes architecture **explicit, testable, and enforced by construction**.
+Blueprint does not rely on discipline, tribal knowledge, or best‑effort reviews.
+It makes architecture **explicit, testable, versioned, and enforced by construction**.
 
 ---
 
@@ -13,27 +13,32 @@ It makes architecture **explicit, testable, and enforced by construction**.
 
 Blueprint Platform helps teams:
 
-* 🚀 Start **production-ready services** from day zero
+* 🚀 Start **production‑ready projects** from day zero
 * 🧱 Keep architecture **consistent** as systems and teams grow
 * 🧩 Make architectural boundaries **explicit and reviewable**
-* 🔒 Apply **opt-in guardrails** instead of relying on conventions
-* ♻️ Reuse enterprise behavior without copying boilerplate
+* 🔒 Apply **opt‑in executable guardrails** instead of relying on conventions
+* ♻️ Reuse enterprise behavior **without copy‑pasting boilerplate**
 
 Blueprint is **not** a template collection.
-It is **architecture as a product** — versioned, observable, and enforced at build time.
+It is **architecture as a product** — versioned, observable, and evaluated at build time.
 
 ---
 
-## 📦 Modules (Growing Ecosystem)
+## 📦 Modules — One Platform, Multiple Responsibilities
 
-| Module              | Status     | Purpose                                                             |
-| ------------------- | ---------- | ------------------------------------------------------------------- |
-| `codegen-blueprint` | 🚀 Active  | Architecture-first project generation with executable guardrails    |
-| `common-libraries`  | 🚧 Planned | Reusable, governed capabilities (security, logging, observability)  |
-| `openapi-blueprint` | 🚧 Planned | Generics-aware OpenAPI contracts and client tooling                 |
-| Developer Portal    | ⚙️ Future  | UI for configuring, generating, and governing architecture at scale |
+Blueprint Platform is intentionally **multi‑module**.
+Each module is independently valuable, but designed to reinforce the others.
 
-> Each module is designed to be **independently valuable** and **collectively reinforcing**.
+| Module              | Status     | Responsibility                                                |
+| ------------------- | ---------- | ------------------------------------------------------------- |
+| `codegen-blueprint` | 🚀 Active  | Architecture‑first project generation + executable guardrails |
+| `common-libraries`  | 🚧 Planned | Versioned capabilities (security, observability, resilience)  |
+| `openapi-blueprint` | 🚧 Planned | Generics‑aware OpenAPI contracts and client tooling           |
+| Developer Portal    | ⚙️ Future  | Configure, generate, and govern architecture at scale         |
+
+> 📌 **Important distinction**
+> `codegen-blueprint` is the **engine**.
+> Capabilities and policies live at the **platform level**.
 
 ---
 
@@ -54,12 +59,12 @@ Architecture should not live in:
 
 ### The Shift
 
-| Without Blueprint            | With Blueprint                          |
-| ---------------------------- | --------------------------------------- |
-| Architecture drifts silently | Guardrails surface drift immediately    |
-| Boilerplate is copy-pasted   | Behavior is reused via governed modules |
-| Onboarding takes weeks       | Teams productive from day zero          |
-| Standards rely on discipline | Standards are enforced by design        |
+| Without Blueprint            | With Blueprint                            |
+| ---------------------------- | ----------------------------------------- |
+| Architecture drifts silently | Guardrails surface drift immediately      |
+| Boilerplate is copy‑pasted   | Behavior is reused via governed libraries |
+| Onboarding takes weeks       | Day‑zero structure + contracts            |
+| Standards rely on discipline | Standards enforced by construction        |
 
 > Blueprint shifts architecture from *best practices* to **verifiable guarantees**.
 
@@ -67,14 +72,14 @@ Architecture should not live in:
 
 ## 🏗 Core Principles
 
-* 🧩 **Architecture-first** — structure and intent come before implementation
+* 🧩 **Architecture‑first** — intent before implementation
 * 🧪 **Confidence through automation** — not conventions alone
-* 🔁 **Long-term integrity** over short-term convenience
+* 🔁 **Long‑term integrity** over short‑term convenience
 * 🛠️ **Productivity without architectural compromise**
 
 Architecture guardrails are:
 
-* **Opt-in** — never hidden
+* **Opt‑in** — never hidden
 * **Executable** — evaluated during `mvn verify`
 * **Deterministic** — no runtime surprises
 
@@ -82,31 +87,48 @@ Architecture guardrails are:
 
 ## 🌱 How the Platform Evolves
 
-Blueprint Platform grows in **intentional layers**, each building on proven contracts:
+Blueprint Platform evolves in **intentional layers** — each one building on proven contracts.
 
-1. **Architecture-aware generation** — clean, test-ready service foundations
-2. **Executable guardrails** — build-time validation of architectural boundaries
-3. **Reusable capabilities** — security, observability, resilience via libraries
-4. **Governance at scale** — profiles, policies, and organization-wide guarantees
+1. **Architecture‑aware generation**
+   Clean, test‑ready project foundations
+2. **Executable guardrails**
+   Build‑time validation of architectural boundaries
+3. **Reusable capabilities**
+   Security, observability, resilience delivered via libraries
+4. **Governance at scale**
+   Org‑wide policies, profiles, and guarantees
 
-Each layer strengthens the previous one — without breaking teams already onboard.
+> Each layer strengthens the previous one — without breaking teams already onboard.
+
+---
+
+## 🧭 Roadmap Alignment
+
+Blueprint Platform follows a strict ordering philosophy:
+
+* Proof before expansion
+* Contracts before convenience
+* Capabilities before profiles
+
+The generator proves the architecture.
+The platform **sustains it across time and teams**.
 
 ---
 
 ## ⭐ Join the Journey
 
-Blueprint Platform is opinionated — **by design** — and community-driven.
+Blueprint Platform is opinionated — **by design** — and community‑driven.
 
-## ⭐ Get Involved
+### ⭐ Get Involved
 
-* 💬 **Discussions** — ideas, roadmap, architectural questions  
-  → [Join the discussions](https://github.com/blueprint-platform/codegen-blueprint/discussions)
+* 💬 **Discussions** — ideas, roadmap, architectural questions
+  → [https://github.com/blueprint-platform/codegen-blueprint/discussions](https://github.com/blueprint-platform/codegen-blueprint/discussions)
 
-* 🐞 **Issues** — bugs and concrete tasks  
-  → [View open issues](https://github.com/blueprint-platform/codegen-blueprint/issues)
+* 🐞 **Issues** — bugs and concrete tasks
+  → [https://github.com/blueprint-platform/codegen-blueprint/issues](https://github.com/blueprint-platform/codegen-blueprint/issues)
 
-* 👤 **Follow the creator**  
-  → [LinkedIn — Barış Saylı](https://www.linkedin.com/in/bsayli)
+* 👤 **Follow the creator**
+  → [https://www.linkedin.com/in/bsayli](https://www.linkedin.com/in/bsayli)
 
 ---
 
