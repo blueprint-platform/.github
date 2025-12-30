@@ -117,18 +117,18 @@ The platform **sustains it across time and teams**.
 
 ## ⭐ Join the Journey
 
-Blueprint Platform is opinionated — **by design** — and community‑driven.
+Blueprint Platform is opinionated — **by design** — and community-driven.
 
-### ⭐ Get Involved
+## ⭐ Get Involved
 
-* 💬 **Discussions** — ideas, roadmap, architectural questions
-  → [https://github.com/blueprint-platform/codegen-blueprint/discussions](https://github.com/blueprint-platform/codegen-blueprint/discussions)
+* 💬 **Discussions** — ideas, roadmap, architectural questions  
+  → [Join the discussions](https://github.com/blueprint-platform/codegen-blueprint/discussions)
 
-* 🐞 **Issues** — bugs and concrete tasks
-  → [https://github.com/blueprint-platform/codegen-blueprint/issues](https://github.com/blueprint-platform/codegen-blueprint/issues)
+* 🐞 **Issues** — bugs and concrete tasks  
+  → [View open issues](https://github.com/blueprint-platform/codegen-blueprint/issues)
 
-* 👤 **Follow the creator**
-  → [https://www.linkedin.com/in/bsayli](https://www.linkedin.com/in/bsayli)
+* 👤 **Follow the creator**  
+  → [LinkedIn — Barış Saylı](https://www.linkedin.com/in/bsayli)
 
 ---
 
