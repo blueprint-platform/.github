@@ -13,7 +13,7 @@ It makes architecture **explicit, testable, versioned, and enforced by construct
 
 Blueprint Platform helps teams:
 
-* 🚀 Start **production‑ready projects** from day zero
+* 🚀 Start **production-oriented projects** from day zero
 * 🧱 Keep architecture **consistent** as systems and teams grow
 * 🧩 Make architectural boundaries **explicit and reviewable**
 * 🔒 Apply **opt‑in executable guardrails** instead of relying on conventions
