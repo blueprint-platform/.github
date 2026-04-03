@@ -12,13 +12,17 @@ It makes architecture **explicit, testable, versioned**, and **enforced through 
 ## ✅ Start here
 
 **Active today**
-- 🚀 **Engine (executable proof):** [`codegen-blueprint`](https://github.com/blueprint-platform/codegen-blueprint)  
+
+* 🚀 **Engine (executable proof):** [`codegen-blueprint`](https://github.com/blueprint-platform/codegen-blueprint)
   Architecture-first project generation + build-time guardrails proof (`mvn verify`) for Spring Boot.
+* 🧩 **Contract system:** [`openapi-generics`](https://github.com/blueprint-platform/openapi-generics)
+  Contract-first API system that preserves generic response semantics across the OpenAPI lifecycle.
 
 **Planned / evolving**
-- 📜 **Platform specs (contracts & governance):** *(planned repo / space)*  
+
+* 📜 **Platform specs (contracts & governance):** *(planned repo / space)*
   The canonical definitions that outlive any single engine.
-- 📦 **Capabilities (versioned libraries):** *(planned)*  
+* 📦 **Capabilities (versioned libraries):** *(planned)*
   Security / observability / resilience delivered as centrally versioned libraries (not generated boilerplate).
 
 ---
@@ -43,15 +47,17 @@ It is **architecture as a product** — versioned, observable, and made executab
 Blueprint Platform is intentionally **multi-module**.
 Each module is independently valuable, but designed to reinforce the others.
 
-| Module / Space             | Status     | Responsibility                                                |
-| -------------------------- | ---------- | ------------------------------------------------------------- |
-| Platform specs (contracts) | 🚧 Planned | Definitions, terminology, compatibility, governance            |
-| `codegen-blueprint`        | 🚀 Active  | Architecture-first generation + executable guardrails proof    |
-| Capabilities (libraries)   | 🚧 Planned | Versioned cross-cutting behavior (security/obs/resilience)     |
-| Developer Portal           | ⚙️ Future  | Configure, generate, and govern architecture at scale          |
+| Module / Space             | Status     | Responsibility                                              |
+| -------------------------- | ---------- | ----------------------------------------------------------- |
+| Platform specs (contracts) | 🚧 Planned | Definitions, terminology, compatibility, governance         |
+| `codegen-blueprint`        | 🚀 Active  | Architecture-first generation + executable guardrails proof |
+| `openapi-generics`         | 🚀 Active  | Contract-first API system (OpenAPI + generics semantics)    |
+| Capabilities (libraries)   | 🚧 Planned | Versioned cross-cutting behavior (security/obs/resilience)  |
+| Developer Portal           | ⚙️ Future  | Configure, generate, and govern architecture at scale       |
 
-> 📌 Important distinction  
-> `codegen-blueprint` is an **engine** (executable proof).  
+> 📌 Important distinction
+> `codegen-blueprint` is an **engine** (executable proof).
+> `openapi-generics` is the **contract system** governing API semantics.
 > Contracts and capabilities live at the **platform level**.
 
 ---
@@ -79,8 +85,9 @@ Blueprint Platform evolves in **intentional layers**:
 
 1. **Architecture-aware generation**
 2. **Executable guardrails (deterministic feedback)**
-3. **Reusable capabilities (libraries, centrally versioned)**
-4. **Governance at scale (profiles, policies, org-wide contracts)**
+3. **Contract systems (API semantics, integration boundaries)**
+4. **Reusable capabilities (libraries, centrally versioned)**
+5. **Governance at scale (profiles, policies, org-wide contracts)**
 
 ---
 
@@ -97,5 +104,5 @@ Blueprint Platform evolves in **intentional layers**:
 
 ---
 
-> **Architecture as a Product**  
+> **Architecture as a Product**
 > Explicit. Observable. Versioned. Executable.
